@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" language="text/cfml">
+<category name="LITERAL" style="LITERAL">
+<token style="LITERAL_LITERAL" type="LITERAL"/>
+</category>
+<style foreground="rgb(0,0,0)" id="LITERAL"/>
+<style foreground="rgb(0,117,0)" id="LITERAL_LITERAL"/>
+<category name="TAG" style="TAG">
+<token style="TAG_ATTRIBUTENAME" type="ATTRIBUTENAME"/>
+<token style="TAG_ATTRIBUTEVALUE" type="ATTRIBUTEVALUE"/>
+</category>
+<style foreground="rgb(153,0,51)" id="TAG"/>
+<style foreground="rgb(153,0,51)" id="TAG_ATTRIBUTENAME"/>
+<style foreground="rgb(45,45,247)" id="TAG_ATTRIBUTEVALUE"/>
+<category name="KEYWORD" style="KEYWORD"/>
+<style foreground="rgb(0,0,192)" id="KEYWORD"/>
+<category name="PUNCTUATOR" style="PUNCTUATOR"/>
+<style foreground="rgb(45,45,247)" id="PUNCTUATOR"/>
+<category name="WHITESPACE" style="WHITESPACE">
+<token style="WHITESPACE_COMMENT" type="COMMENT"/>
+</category>
+<style foreground="rgb(0,0,0)" id="WHITESPACE"/>
+<style background="rgb(255,255,153)" foreground="rgb(0,0,0)" id="WHITESPACE_COMMENT"/>
+</colorizer>
